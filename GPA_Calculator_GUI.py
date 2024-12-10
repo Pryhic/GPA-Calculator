@@ -33,7 +33,7 @@ def generate_class_inputs():
             grade_entries.append(entry)
             
     except ValueError:
-        messagebox.showerror("Input Error", 'Please only input a digit between 1 and 12.')
+        messagebox.showerror("Input Error", 'Please only input a digit between 1 and 8.')
         
 def calculate_gpa_wrap():
     '''
